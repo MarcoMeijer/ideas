@@ -5,14 +5,14 @@
 Sometimes you just want to repeat something a few times. Like when you want to repeat the program for t test cases.
 
 ```ruby
-get<int>.times {
+get(int).times {
     # your code here
 }
 ```
 
 Also:
 ```ruby
-get<int>.times |i| {
+get(int).times |i| {
     # you can use i here
 }
 ```
