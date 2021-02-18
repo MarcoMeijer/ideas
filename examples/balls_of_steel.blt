@@ -1,0 +1,11 @@
+# Balls of Steel: https://codeforces.com/contest/1450/problem/B
+
+get(int).times {
+    n, k = get(int...);
+    points[n] = get((x: int, y: int)...);
+    puts(1 if points.any |p| {
+        points.all |q| {
+            abs(q.y - p.y) + abs(q.x - p.x) <= k
+        }
+    } else -1);
+}

@@ -1,0 +1,5 @@
+# Avoid Trygub: https://codeforces.com/contest/1450/problem/A
+get(int).times {
+    n, s = get(int, str);
+    puts(s.sorted());
+}
